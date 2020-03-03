@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="keywords" content="portfolio,school,project,job,skills" />
+    <meta name="description" content="My portfolio for school project." />
+    <meta charset="UTF-8" />
+    <meta name="author" content="Aleksandar Arsić" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Portfolio | Aleksandar Arsić</title>
+</head>
+<body>
+    <!-- HEADER-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#naslov">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#forma">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Hi,</br>I'm Aleksandar</br>Web Developer
+        </h1>
+    </header>
+    <!--ABOUT ME -->
+    <div class="naslov" id="naslov">
+        <h2>About me</h2>
+    </div>
+    <div id="aboutMe">
+        <div id="pic">
+            <figure>
+                <img src="img/profile.jpg" alt="Profile picture">
+            </figure>
+        </div>
+        <div id="text">
+            <p>
+                My name is Aleksandar Arsić, </br> I am 21 years old web developer, born in Aranđelovac.</br> 
+            </p>
+        </br>
+            <p>Instead of thinking of all the things that can go wrong,I become one of the people who look on how they go right. 
+                When you think positive thoughts, positive things will happen.
+            </p>
+        </div>
+    </div>
+     <!-- SKILLS-->
+    <div id="middle">
+        <div class="naslov"><h2>Skills</h2>
+        </div>
+        <div id="skills">
+            <div class="skill">
+                <figure>
+                    <img src="img/html.png" alt="Html 5"/>
+                </figure>
+                <div class="block">
+                    <div class="language" id="html">
+                        <p>Html
+                            <span>90%</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <figure>
+                    <img src="img/css.png" alt="Css 3"/>
+                </figure>
+                <div class="block">
+                    <div class="language" id="css">
+                        <p>Css 3
+                            <span>85%</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <figure>
+                    <img src="img/c.png" alt="Language C#"/>
+                </figure>
+                <div class="block">
+                    <div class="language" id="c">
+                        <p>c#
+                            <span>95%</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <figure>
+                    <img src="img/php.png" alt="Php "/>
+                </figure>
+                <div class="block">
+                    <div class="language" id="php">
+                        <p>Php
+                            <span>60%</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!-- PROJECTS-->
+   <div id="projectsHolder">
+        <div class="naslov">
+            <h2>Projects</h2>
+        </div>
+        <div id="projects">
+            <div class="project">
+                <a href="https://acika4.github.io/website/" target="_blank"><img src="img/project1.jpg" alt="Manga Serbia"/></a>
+                <p>html,css 3, not responsive </p>
+            </div>
+            <div class="project">
+                <a href="#"><img src="img/project2.jpg" alt="Bell"/></a>
+                <p>html,css 3, not responsive </p>
+            </div>
+            <div class="project">
+                <a href="#"><img src="img/project3.jpg" alt="Maximus Dapibus Justi"/></a>
+                <p>html,css 3, not responsive </p>
+            </div>
+            <div class="project">
+                <a href="#"><img src="img/project4.jpg" alt="Ornare Tortor Quisque"/></a>
+                <p>html,css 3, not responsive </p>
+            </div>
+            <div class="project">
+                <a href="#"><img src="img/project5.jpg" alt="Marble"/></a>
+                <p>html,css 3, not responsive </p>
+            </div>
+            <div class="project">
+                <a href="#"><img src="img/project6.jpg" alt="selecoo"/></a>
+                <p>html,css 3, not responsive </p>
+            </div>
+        </div>
+   </div>
+   <!-- CONTACT -->
+   <div id="contactHolder">
+        <div class="naslov">
+            <h2>Contact</h2>
+        </div>
+    <form id="forma" action="index.html" method="get">
+        <table id="tableForma">
+            <th id="naslovForm " colspan="2" >Please leave a Message</th>
+            <tr>
+                <td>
+                    <label for="name">First name :</label>
+                </td>
+                <td>
+                    <input type="text" id="name" placeholder="Your name" required="required"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <label for="name1">Last name :</label>
+                </td>
+                <td>
+                    <input type="text" id="name1" placeholder="Your last name" required="required"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name2">Phone number :</label>
+                </td>
+                <td>
+                    <input type="text" id="name2" required="required" placeholder="Phone number" maxlength="15" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name3">Email :</label>
+                </td>
+                <td>
+                    <input type="email" id="name3" required="required" placeholder="Your Email" maxlength="15"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea id="area"  cols="49" rows="10" placeholder="Message"></textarea>
+                </td>
+             </tr>
+            <tr id="tab">
+                <td>
+                     <input type="submit" value="Send" class="button1"/>
+                </td>
+                <td>
+                    <input type="reset" value="Reset" id="reset" class="button1"/>
+                 </td>
+             </tr>
+        </table>
+        </form>
+        <div id="up">
+            <a href="#"><i class="fa fa-chevron-up"></i></a>
+        </div>
+    </div>
+    <!-- CONTACT -->
+    <div id="footerHolder">
+        <div id="footer">
+            <div class="footerlink">
+                <ul>
+                    <li><a href="https://github.com/AciKa4/portfolio/tree/master/css">SASS/miniCSS</a></li>
+                    <li><a href="sitemap.xml">Sitemap</a></li>
+                    <li><a href="css/style.css">Original CSS</a></li>
+                </ul>
+            </div>
+            <div class="footerlink">
+                <ul>
+                    <li><a href="https://github.com/AciKa4" target="_blank">Github<i class="fa fa-github"></i></a></li>
+                    <li><a href="https://facebook.com/acika10" target="_blank">Facebook <i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/aleksandar-arsic-155b88173/" target="_blank">LinkedIn <i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>  
+        </div>
+        <div id="copyR">
+         <p>© Copyright Aleksandar Arsić</p>  
+        </div>
+        <div class="cleaner">
+        </div>
+    </div>
+
+</body>
+</html>
